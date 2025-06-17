@@ -1,0 +1,51 @@
+.labels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.overview-activity .chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+canvas {
+    max-height: 260px;
+}
+
+.overview-chart-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.chart-tabs {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.chart-tabs button {
+    padding: 6px 16px;
+    border: none;
+    background: transparent;
+    color: rgba(160, 160, 160, 1);
+    border-radius: 40px;
+}
+
+.chart-tabs button.active {
+    width: fit-content;
+    color: #fff;
+    background: rgba(8, 103, 255, 1);
+}
