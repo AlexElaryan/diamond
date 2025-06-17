@@ -112,6 +112,7 @@ document.querySelectorAll(".tab-btn").forEach(button => {
         lineChart.update();
     });
 });
+
 const ctx = document.getElementById('barChart').getContext('2d');
 
 const labels = ["Jan", "Feb", "Mrch", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"];
